@@ -69,12 +69,12 @@
    Author profile and links
    ========================================================================== */
 
-.author__avatar {
+.author__avatar {  // author profile
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  width: 50px;
   // set width only, for non-square avatars
-  // height: 36px;
+  height: 25px;
 
   @include breakpoint($large) {
     display: block;
@@ -84,7 +84,8 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    // border-radius: 50%; // circular logo
+    border-radius: 10px 5% 5% 10px; 
 
     @include breakpoint($large) {
       padding: 5px;
