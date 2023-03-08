@@ -11,8 +11,8 @@ title                    : "Home"   # Title page
 title_separator          : "-"
 name                     : &name "Hui Wang"
 description              : &description "personal description"
-url                      : https://osimrlab.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : "https://osimrlab.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/osimrlab" # the subpath of your site, e.g. "/blog"
 repository               : "osimrlab/osimrlab.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
